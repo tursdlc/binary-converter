@@ -1,0 +1,82 @@
+.divConverter{
+    display:flex ;
+    flex-direction: column;
+    gap:10px;
+}
+.inputConverter{
+    max-width: 300px;
+    width: fit-content;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    min-height: 30px;
+    padding-left: 5px;
+    color: #495057;
+    font-family: 'Roboto Slab';
+    
+}
+.inputConverter[type=text]:focus {
+    border: none;
+}
+
+.buttonConverter{
+    background-color: rgb(76, 12, 136);
+    color: rgb(233, 235, 236);
+    min-width: 50px;
+    min-height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.buttonConverter:hover {
+    background-color: rgb(185, 142, 224);
+    color: #2d2e30;
+    border: 1px solid #747b81;
+}
+.clearButton{
+    background-color: #787a7c;
+    color: rgb(255,255,255);
+    min-width: 50px;
+    min-height: 30px;
+    padding:10px;
+    border: none;
+    border-radius:5px;
+    align-self: center;
+    margin-left: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.clearButton:hover {
+    background-color: rgb(213, 195, 230);
+    color: #2d2e30;
+    border: 1px solid #747b81;
+}
+.resultConverter{
+    border: 1px solid #747b81;
+    background-color: rgb(255, 255, 255);
+    min-width: 60px;
+    min-height: 26px;
+    width: fit-content;
+    padding:8px;
+    color:#495057;
+    border-radius:5px;
+}
+.resultP{
+    margin:0px;
+}
+@media screen and (max-width: 479px) and (min-width: 280px){
+    .divConverter{
+        font-size: 16px;
+    }
+    .buttonConverter{
+        
+        font-size: 14px;
+        height: fit-content;
+    }
+    .clearButton{
+        font-size: 14px;
+        height: fit-content;
+        
+    }
+}

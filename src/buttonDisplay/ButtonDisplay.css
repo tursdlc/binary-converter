@@ -1,0 +1,30 @@
+.divToggleButton{
+    gap:10px;
+}
+.hidden{
+    display: none;
+}
+.isVisible{
+    margin-top: 20px;
+}
+.toggleButton{
+    color: rgb(85, 57, 92);
+    font-size: 18px;
+    width: fit-content;
+    padding: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+@media screen and (max-width: 830px) and (min-width: 480px){
+    .toggleButton{
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 479px) and (min-width: 300px){
+    .toggleButton{
+        text-align: left;
+        font-size: 16px;
+    }
+
+}

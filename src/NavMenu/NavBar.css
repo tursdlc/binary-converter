@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding: 20px;
+    font-family: 'Roboto Slab';
+    
+}
+.h1Navbar{
+    margin:0px;
+    color: beige;
+    font-size: 30px;
+}
+.NavMenu{
+    display:flex;
+    gap: 40px;
+    align-items: center;
+    width: auto;
+}
+.buttonsNavbar{
+    color:beige;
+    align-items: center;
+}
+.buttonsNavbar :hover{
+    background-color: rgb(155, 131, 172);
+    cursor: pointer;
+    border-radius: 5px;
+    color: #2d2e30;
+}
+.pNavbar{
+    margin:0px;
+    font-size: 20px;
+    padding:10px;
+}
+@media screen and (max-width: 479px) and (min-width: 280px){
+    .h1Navbar{
+        font-size: 24px;
+    }
+}
