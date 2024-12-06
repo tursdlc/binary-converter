@@ -108,8 +108,8 @@ const DecimalConverter = () => {
                 class='clearButton'
                 onClick={clearInput}
             >Clear</button>
-            <p>
-                <strong style={{color:'#495057'}}>Decimal Number:</strong> 
+            <p className='resultText'>
+                <strong>Decimal Number:</strong> 
             </p>
             <div className='resultConverter'>
                 <p className='resultP'>{result}</p>

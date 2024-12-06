@@ -4,20 +4,18 @@
     gap:10px;
 }
 .inputConverter{
-    max-width: 300px;
-    width: fit-content;
+    max-width: 200px;
+    min-width: 60%;
     border: 1px solid #ced4da;
     border-radius: 5px;
     min-height: 30px;
     padding-left: 5px;
     color: #495057;
     font-family: 'Roboto Slab';
-    
 }
 .inputConverter[type=text]:focus {
     border: none;
 }
-
 .buttonConverter{
     background-color: rgb(76, 12, 136);
     color: rgb(233, 235, 236);
@@ -28,6 +26,7 @@
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
+    border: 1px solid transparent;
 }
 .buttonConverter:hover {
     background-color: rgb(185, 142, 224);
@@ -53,17 +52,23 @@
     border: 1px solid #747b81;
 }
 .resultConverter{
+    max-width: 200px;
+    min-width: 60%;
+    min-height: 30px;
     border: 1px solid #747b81;
     background-color: rgb(255, 255, 255);
-    min-width: 60px;
     min-height: 26px;
-    width: fit-content;
     padding:8px;
     color:#495057;
     border-radius:5px;
 }
 .resultP{
     margin:0px;
+}
+.resultText{
+    color:#495057;
+    margin-top: 10px;
+    padding-top: 15px;
 }
 @media screen and (max-width: 479px) and (min-width: 280px){
     .divConverter{

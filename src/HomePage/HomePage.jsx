@@ -41,7 +41,8 @@ export default function HomePage(){
                     <p>This method is fundamental to computer science because computers store and process all data, including text, numbers, and images, in binary form. </p>
                     </div>
                     </>
-                </ToggleButton>       
+                </ToggleButton>     
+
                 <ToggleButton buttonText='Step-by-step Guide: Decimal to Binary Conversion'>
                     <>
                         <div><b>In order to manually calculate the equivalent in binary numbers, follow these steps: </b>
@@ -166,6 +167,7 @@ export default function HomePage(){
                         </div>
                     </>
                 </ToggleButton>
+                
                 <ToggleButton buttonText='What is Binary to Decimal Conversion?'>
                     <>
                         <p>

@@ -15,10 +15,10 @@ const ToggleButton = ({ buttonText, children, startOpen=false}) => {
     }
 
     return(
-        <div className='divToggleButton'>
+        <>
             <button onClick={handleClick} className='toggleButton'>{buttonText}</button>
             <div className={ toggledClassName }>{children}</div>
-        </div>
+        </>
     )
 }
 
