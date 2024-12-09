@@ -170,7 +170,7 @@ tbody tr:nth-child(even) {
         gap: 24px;
     }
     .formHome{
-        max-width: 230px;
+        max-width: 280px;
         min-width: 210px;
         width: fit-content;
     }
